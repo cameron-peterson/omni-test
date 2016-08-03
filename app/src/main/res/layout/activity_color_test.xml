@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:gravity="center_vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.leviton.omnitestapplication.ColorTest"
+    android:background="@color/White"  >
+	        
+    <TextView
+        android:id="@+id/leviton_text"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/color_text"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+	    
+</LinearLayout>

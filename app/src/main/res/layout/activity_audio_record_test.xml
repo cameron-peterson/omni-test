@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#47629C"
+    android:columnCount="2"
+    android:rowCount="2"
+    tools:context=".AudioRecordTest">
+
+    <Button
+        android:id="@+id/record_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/start_recording" />
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/record_button"
+        android:layout_alignBottom="@+id/record_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="300dp"
+        android:text="@string/start_playing" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/record_button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:text="@string/exit" />
+
+    <TextView
+        android:id="@+id/leviton_text"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/audio_record_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/audio_record_header"
+        android:textColor="@color/Black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
